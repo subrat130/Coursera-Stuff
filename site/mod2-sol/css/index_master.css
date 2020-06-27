@@ -1,3 +1,98 @@
-body{
+body
+{
   font-family: 'Piedra', cursive;
+  background-color: purple;
+  box-sizing: border-box;
+
+}
+h1
+{
+  text-align: center;
+}
+.suc
+{
+  background-color: grey;
+  border: 1px black solid;
+  align-self: center;
+  width: 90%;
+  height: 225px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#p0,#p1,#p2
+{
+  align-content: center;
+  float: right;
+  border: 1px solid black;
+  width: 30%;
+  margin-top: 0px;
+  padding: 0px 5px 0px 5px;
+}
+#p0
+{
+  background-color: pink;
+  text-align: center;
+  padding: 10px;
+}
+#p1
+{
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+#p2
+{
+  background-color: yellow;
+  padding: 10px;
+  text-align: center;
+}
+#p00,#p01,#p02
+{
+  padding-top: 43px;
+  padding-left: 10px;
+}
+#p01,#p02
+{
+  font-size: 1.04em;
+}
+@media (min-width: 992px)
+{
+  #s0
+  {
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+  }
+  #s1{
+    float: left;
+    margin-left: 2.5%;
+    width: 30%;
+  }
+  #s2
+  {
+    float: left;
+    margin-left: 2.5%;
+    width: 30%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+  #s0
+  {
+    float: left;
+    width: 45%;
+    margin-left: 3.33%;
+  }
+  #s1{
+    float: left;
+    margin-left: 3.33%;
+    width: 45%;
+  }
+  #s2
+  {
+    float: left;
+    margin-left: 3%;
+    width: 94%;
+  }
 }
