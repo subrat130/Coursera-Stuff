@@ -1,0 +1,74 @@
+body
+{
+    background-color: #f0e2b6;
+    color: #d4af37;
+    font-family: 'Dancing Script', cursive;
+    /* font-size: 25px; */
+}
+#header-nav
+{
+    border-radius: 0px;
+    border: 0px;
+    height: 10vw;
+    padding: 0vw;
+    margin: 0vw;
+}
+#header-nav>.container
+{
+    position: relative;
+    height: 100%;
+    padding: 0vw;
+}
+.navbar-brand h1
+{
+    color: #d4af37;
+    margin: 0vw;
+    font-weight: bolder;
+    font-size: 6vw;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+    background-color: #f0e2b6;
+}
+.center
+{
+    position: absolute;
+    margin: 0px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#menu-button
+{
+    right: 2%;
+    background-color: #d4af37;
+}
+#collapsable-menu
+{
+    border: 0vw;
+}
+#navlist
+{
+    text-align: center;
+    background-color: #d4af37;
+}
+#navlist>.menu-items
+{
+    color: #ffffff;
+}
+#navlist>.menu-items-bar
+{
+    padding: 0px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+section
+{
+    height: 1000px;
+    font-size: 25px;
+}
+h2
+{
+    font-size: 4em;
+}
